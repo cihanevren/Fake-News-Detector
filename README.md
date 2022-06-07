@@ -1,5 +1,10 @@
 # Fake News Detector
+# LSTM WITH PRETRAINED GLOVE EMBEDDING
+# CNN WITH WORD EMBEDDING
+# XGBOOST WITH TF-IDF
+
 SUMMARY
+
 Dataset: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 
 Download dataset Fake and Real news from the source and upload to colab environment
@@ -15,6 +20,7 @@ If we don't use GPU the training times increase at least 10 times
 Used Google Colab
 
 LSTM MODEL
+
 Training time : 3min
 
 F1 Score : 0.9313
@@ -26,6 +32,7 @@ Only one LSTM layer used with 128 filters
 Glove embeddings with 50 dimension
 
 CNN MODEL
+
 Training time : 45 seconds
 
 F1 score : 0.9839
@@ -37,6 +44,7 @@ Only one 1D Convolution layer used with 128 filters
 Embedding layer trained with 30 dimension
 
 XGBOOST MODEL
+
 Training time : 1min 27 seconds
 
 F1 Score : 0.9944
